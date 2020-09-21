@@ -18,7 +18,7 @@ body {
   margin: 2rem auto;
   overflow-x: hidden;
   max-width: 800px;
-  background: url('/img/fondo.jpg') #ffffff;
+  background: url('/My-PWA/img/fondo.jpg') #ffffff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
