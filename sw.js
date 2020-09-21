@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_programador_fitness',
+const CACHE_NAME = 'v1_cache_fm',
   urlsToCache = [
     './',
     'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
@@ -20,7 +20,7 @@ self.addEventListener('install', e => {
         return cache.addAll(urlsToCache)
           .then(() => self.skipWaiting())
       })
-      .catch(err => console.log('Falló registro de cache', err))
+      .catch(err => console.log('Fail register', err))
   )
 })
 
